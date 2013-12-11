@@ -59,7 +59,6 @@ Further improves
 Documentation/Resources
 -----------------------
 
-Check the github of jqtouch for documentation:
-[https://github.com/senchalabs/jQTouch]{https://github.com/senchalabs/jQTouch}
+Check the github of jqtouch for documentation: https://github.com/senchalabs/jQTouch
 
 (the demos files are a great resource to learn to use jqtouch)
