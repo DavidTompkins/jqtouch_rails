@@ -8,7 +8,7 @@ Install
 
 Put this line in your Gemfile:
 
-    gem 'jqtouch_rails', git: 'git://github.com/adrienbourgeois/jqtouch_rails.git
+    gem 'jqtouch_rails', git: 'git://github.com/adrienbourgeois/jqtouch_rails.git'
 
 Run:
 
@@ -29,7 +29,7 @@ This generator creates a route, a jqtouch_pages_controller and a view jqtouch_pa
 Issue
 -----
 
-If it doesn't work, check that your manifest files look like this:
+If it doesn't work, check that your manifest files looks like this:
 
 application.css:
 
@@ -48,10 +48,10 @@ application.js:
 Note
 ----
 
-The author of jqtouch use by default the javqscript library Zepto instead of jquery. He says that as jqtouch is mobile oriented, a lighter library is preferable. I agree with him but as rails uses jquery by default, jqtouch will also (see further improves).
+The author of jqtouch uses by default the javascript library Zepto instead of jquery. He says that as jqtouch is mobile oriented, a lighter library is preferable. I agree with him but as rails uses jquery by default, as a first choice of facility I choosed to use jquery (see further improves).
 
 Further improves
 ----------------
 
--Add option to allow to choose between jquery and Zepto
--Add option for jqtouch to be used only if the app is visited with a mobile device
+* Add option to allow to choose between jquery and Zepto
+* Add option for jqtouch to be used only if the app is visited with a mobile device
