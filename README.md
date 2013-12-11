@@ -1,5 +1,5 @@
-Jqtouch_rails (0.0.2)
-=====================
+Jqtouch_rails
+=============
 
 This gem install jqtouch-1.0-b4-rc on your rails application.
 
@@ -8,7 +8,7 @@ Install
 
 Put this line in your Gemfile:
 
-    gem 'jqtouch_rails', git: 'git://github.com/adrienbourgeois/jqtouch_rails.git'
+    gem 'jqtouch_rails'
 
 Run:
 
