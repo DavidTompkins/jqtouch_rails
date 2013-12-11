@@ -18,5 +18,7 @@ class InstallJqtouchGenerator < Rails::Generators::Base
     copy_file "javascripts/jqtouch-jquery.min.js", "vendor/assets/javascripts/jqtouch/jqtouch-jquery.min.js"
     copy_file "javascripts/jqtouch.min.js", "vendor/assets/javascripts/jqtouch/jqtouch.min.js"
     copy_file "stylesheets/apple.css", "vendor/assets/stylesheets/jqtouch/css/apple.css"
+    copy_file "stylesheets/jqtouch.css", "vendor/assets/stylesheets/jqtouch/css/jqtouch.css"
+    copy_file "stylesheets/vanilla.css", "vendor/assets/stylesheets/jqtouch/css/vanilla.css"
   end
 end

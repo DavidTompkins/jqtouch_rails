@@ -45,6 +45,20 @@ application.js:
     //= require turbolinks
     //= require_tree .
 
+Change theme
+------------
+
+Jqtouch comes with 3 themes:
+* apple
+* vanilla
+* jqtouch
+
+By default, the gem will install the apple theme. If you wish to use another one, you can modify the css manifest like so:
+
+     *= require ../../../vendor/assets/stylesheets/jqtouch/css/vanilla
+
+if you want to use the vanilla theme.
+
 Note
 ----
 
