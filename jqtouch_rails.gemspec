@@ -7,16 +7,14 @@ require "jqtouch_rails/version"
 Gem::Specification.new do |s|
   s.name        = "jqtouch_rails"
   s.version     = JqtouchRails::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of JqtouchRails."
-  s.description = "TODO: Description of JqtouchRails."
+  s.authors     = ["Adrien Bourgeois"]
+  s.email       = ["adrienfrancis.bourgeois@gmail.com"]
+  s.homepage    = "http://github.com/adrienbourgeois"
+  s.summary     = "Install jqtouch on your rails app"
+  s.description = "Install jqtouch on your rails app"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.0.2"
-
-  s.add_development_dependency "sqlite3"
 end
