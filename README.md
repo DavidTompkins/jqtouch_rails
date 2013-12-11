@@ -1,7 +1,7 @@
-Jqtouch_rails (0.0.1)
+Jqtouch_rails (0.0.2)
 =====================
 
-This gem install jqtouch on your rails application.
+This gem install jqtouch-1.0-b4-rc on your rails application.
 
 Install
 -------
@@ -55,3 +55,11 @@ Further improves
 
 * Add option to allow to choose between jquery and Zepto
 * Add option for jqtouch to be used only if the app is visited with a mobile device
+
+Documentation/Resources
+-----------------------
+
+Check the github of jqtouch for documentation:
+[https://github.com/senchalabs/jQTouch]{https://github.com/senchalabs/jQTouch}
+
+(the demos files are a great resource to learn to use jqtouch)
