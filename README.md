@@ -3,6 +3,8 @@ Jqtouch_rails
 
 This gem install jqtouch-1.0-b4-rc on your rails application.
 
+Updated for Rails 4.2.1.
+
 Install
 -------
 
@@ -13,7 +15,7 @@ Put this line in your Gemfile:
 Run:
 
     bundle install
-    rails g jqtouch_install
+    rails g install_jqtouch
 
 The last command will copy the necessary files in your vendor/assets, will create a 'jqtouch.js' file in your app/assets/javascripts where your can tune jqtouch if you want and will add the necessary requires in you manifest files.
 
